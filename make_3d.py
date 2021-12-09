@@ -5,7 +5,7 @@ import csv
 import obj2dot
 
 vertices, uvs, normals, faceVertIDs, uvIDs, normalIDs, vertexColors = \
-    obj2dot.loadOBJ('model/Model_D1208A016/D1208A016.obj')
+    obj2dot.loadOBJ('modelpath.obj')
 P = np.array(vertices)
 P = obj2dot.obj2dot(P, 256)
 
