@@ -17,12 +17,9 @@ python -m venv venv
 .\venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-## objファイルのパス指定
-make_3d.py line 8
-
 ## 実行
 
 ```
-.\venv\Scripts\python.exe make_3d.py
+.\venv\Scripts\python.exe make_3d.py model_file_path
 
 ```
